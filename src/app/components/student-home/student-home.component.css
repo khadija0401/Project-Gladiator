@@ -1,0 +1,65 @@
+.page{
+    background-color:aquamarine;
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    font-size:22px;
+    color:white;
+    background-color: navy;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#btnColor{
+    color: white;
+}
+
+
+.studentprofile{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.schemes{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.guidelines{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.description
+{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px;
+}

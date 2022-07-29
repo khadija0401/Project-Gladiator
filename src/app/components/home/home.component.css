@@ -1,0 +1,100 @@
+.page{
+    background-color:antiquewhite;
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    font-size:22px;
+    color:white;
+    background-color: navy;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.latestupdates{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    /* background-color:aquamarine; */
+}
+
+.updates{
+    color: red;
+}
+
+.helpdesk{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* background-color:aquamarine; */
+
+}
+
+
+.registration{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 30px;
+    padding: 12px;
+
+}
+
+.applicant{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+
+}
+
+.institute{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+
+}
+
+.suggestions{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+
+}
+
+.loginpage{
+    font-size: 30px;
+    /* border: 1px solid black; */
+    margin: 30px 90px 20px;
+    padding: 10px;
+}
+
+.instructions{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* background-color:aquamarine; */
+}
