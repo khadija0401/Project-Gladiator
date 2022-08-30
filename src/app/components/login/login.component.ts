@@ -11,9 +11,11 @@ import { SharedService } from 'src/app/services/shared.service';
 })
 export class LoginComponent implements OnInit {
 
-  fname : string;
+  emailid : string;
 
-  constructor(private loginAuth: AuthService, private sharedService : SharedService) { }
+  constructor(private loginAuth: AuthService, private sharedService : SharedService) { 
+    this.sharedService.emailid = "Component 1 initial value";
+  }
 
   ngOnInit(): void {
   }
@@ -26,7 +28,7 @@ export class LoginComponent implements OnInit {
   isUserValid : boolean = false;
 
   loginSubmitted(){
-    this.loginAuth.loginUser(
+    this.loginAuth.loginStudent(
       [this.loginForm.value.email || '', 
       this.loginForm.value.pwd || ''
     ]).subscribe(res =>{
@@ -38,11 +40,9 @@ export class LoginComponent implements OnInit {
       else{
         this.isUserValid=true;
         alert('Login Successful!');
-        console.log(res)
-        this.loginAuth.setToken(res);
+        console.log(res);
         window.location.href = "http://localhost:4200/home/studenthome";
       }
-      
     });
     console.log(this.loginForm); 
   }
@@ -55,7 +55,8 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('pwd') as FormControl;
   }
 
-  ngAfterContentChecked() {
-    this.fname = this.sharedService.fname;
+  addValue(id : string) {
+    // alert("Shared Service");
+    this.sharedService.updateEmailid(id);
   }
 }

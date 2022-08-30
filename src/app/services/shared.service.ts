@@ -6,17 +6,17 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class SharedService {
 
-  fname: string;
-  fnameBS = new BehaviorSubject<string>('');
+  emailid: string;
+  emailidBS = new BehaviorSubject<string>('');
 
   constructor() {
-    this.fname;
+    this.emailid;
 
-    this.fnameBS.next(this.fname);
+    this.emailidBS.next(this.emailid);
    }
 
-   updateFname(val:string){
-    this.fname = val;
-    this.fnameBS.next(this.fname);
+   updateEmailid(val:string){
+    this.emailid = val;
+    this.emailidBS.next(this.emailid);
    }
 }

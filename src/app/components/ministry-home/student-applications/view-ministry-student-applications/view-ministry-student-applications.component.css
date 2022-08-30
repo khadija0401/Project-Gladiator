@@ -1,0 +1,114 @@
+
+.page{
+    background-color:rgb(199, 232, 221);
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    border-radius: 20px;
+    font-size:30px;
+    text-align: center;
+    color:white;
+    background-color: navy;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#logout{
+    /* font-size: 22px; */
+    height: 40px;
+    margin-top: 2.5px;
+}
+
+#btnColor{
+    color: white;
+}
+
+
+.ministrymenu{
+    align-items: center;
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 61px;
+}
+
+.button1{
+    width: 170px;
+    font-size: 17px;
+}
+
+.applications{
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.appln{
+    font-size: 19px;
+}
+
+.table{
+    border: 1px solid black;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+#thead{
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+#tbody{
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+/* .viewbutton{
+    height:30px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+} */
+
+.studentapplication{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.verifybutton{
+    width: 80px;
+}
+
+.rejectbutton{
+    width: 80px;
+    margin-left: 5px;
+}
+
+.grantbutton{
+    width: 80px;
+    margin-left: 5px;
+}

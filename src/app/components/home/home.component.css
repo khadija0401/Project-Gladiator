@@ -1,5 +1,6 @@
+
 .page{
-    background-color:antiquewhite;
+    background-color:rgb(199, 232, 221);
 }
 
 .title{
@@ -18,6 +19,7 @@
 }
 
 .navigationbar{
+    border-radius: 20px;
     font-size:22px;
     color:white;
     background-color: navy;
@@ -33,7 +35,7 @@
     border: 1px solid black;
     margin-top: 30px;
     padding: 10px;
-    /* background-color:aquamarine; */
+    /* background-color:snow; */
 }
 
 .updates{
@@ -51,7 +53,7 @@
 }
 
 
-.registration{
+.studentregistration{
     border: 1px solid black;
     font-size: 19px;
     margin-top: 30px;
@@ -59,7 +61,11 @@
 
 }
 
-.applicant{
+.applicantlogin, 
+.instituteregistration,
+.institutelogin,
+.suggestions
+{
     border: 1px solid black;
     font-size: 19px;
     margin-top: 20px;
@@ -67,12 +73,18 @@
 
 }
 
-.institute{
+/* .instituteregistration{
     border: 1px solid black;
     font-size: 19px;
     margin-top: 20px;
     padding: 12px;
+}
 
+.institutelogin{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
 }
 
 .suggestions{
@@ -80,14 +92,24 @@
     font-size: 19px;
     margin-top: 20px;
     padding: 12px;
+} */
 
-}
-
-.loginpage{
-    font-size: 30px;
+.portaldescription{
     /* border: 1px solid black; */
     margin: 30px 90px 20px;
     padding: 10px;
+}
+
+.description{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.guidelines{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 .instructions{
@@ -96,5 +118,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    /* background-color:aquamarine; */
+}
+
+.aboutusbutton{
+    border: none;
+    background-color:navy;
+    color: white;
+}
+
+.contactusbutton{
+    border: none;
+    background-color:navy;
+    color: white;
 }

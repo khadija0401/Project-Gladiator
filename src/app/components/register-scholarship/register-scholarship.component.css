@@ -1,0 +1,61 @@
+/* h2{
+    color:cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.page{
+    background-color:rgb(199, 232, 221);
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    border-radius: 20px;
+    font-size:30px;
+    text-align: center;
+    color:white;
+    background-color: navy;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+#btnColor{
+    color: white;
+}
+
+.card-header{
+    margin-bottom: 20px;
+}
+
+.ministrymenu{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.backbutton{
+    margin-bottom: 100px;
+}
