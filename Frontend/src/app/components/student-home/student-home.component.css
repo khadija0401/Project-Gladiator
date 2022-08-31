@@ -1,0 +1,92 @@
+
+.page{
+    background-color:rgb(199, 232, 221);
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    border-radius: 20px;
+    font-size:30px;
+    color:white;
+    background-color: navy;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#btnColor{
+    color: white;
+}
+
+#logout{
+    /* font-size: 22px; */
+    height: 40px;
+    margin-top: 2.5px;
+}
+
+.studentprofile{
+    align-items: center;
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.button1{
+    width: 125px;
+    font-size: 17px;
+}
+
+.schemes{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.guidelines{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#guides{
+    font-size: 16px;
+}
+
+.description
+{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 20px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    padding: 10px;
+}
+
+.applybutton{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

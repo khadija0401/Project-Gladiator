@@ -1,0 +1,11 @@
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }

@@ -1,0 +1,133 @@
+
+.page{
+    background-color:rgb(199, 232, 221);
+}
+
+.title{
+    color:brown;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.toplogo{
+    margin-top: 5px;
+}
+
+.flaglogo{
+    margin-top: 23px;
+}
+
+.navigationbar{
+    border-radius: 20px;
+    font-size:22px;
+    color:white;
+    background-color: navy;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.latestupdates{
+    font-size: 19px;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    /* background-color:snow; */
+}
+
+.updates{
+    color: red;
+}
+
+.helpdesk{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* background-color:aquamarine; */
+
+}
+
+
+.studentregistration{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 30px;
+    padding: 12px;
+
+}
+
+.applicantlogin, 
+.instituteregistration,
+.institutelogin,
+.suggestions
+{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+
+}
+
+/* .instituteregistration{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.institutelogin{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.suggestions{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 12px;
+} */
+
+.portaldescription{
+    /* border: 1px solid black; */
+    margin: 30px 90px 20px;
+    padding: 10px;
+}
+
+.description{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.guidelines{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.instructions{
+    border: 1px solid black;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.aboutusbutton{
+    border: none;
+    background-color:navy;
+    color: white;
+}
+
+.contactusbutton{
+    border: none;
+    background-color:navy;
+    color: white;
+}
