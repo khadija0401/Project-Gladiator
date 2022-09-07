@@ -44,7 +44,6 @@ namespace StudentModule.Controllers
         [Route("ApplicationStatus/{id}")]
         public ActionResult ApplicationStatus(int id, DocumentsDetailsScholarship model)
         {
-
             var reg = _context.Documents_Details_Scholarships.FirstOrDefault(reg => reg.applicationid == id);
             if (reg != null)
             {
